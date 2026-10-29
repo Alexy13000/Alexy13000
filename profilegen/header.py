@@ -25,6 +25,20 @@ CSS = """
 """
 
 
+def _lines(sentence: str, max_w: float) -> list[str]:
+    """One line if it fits; else break after the comma nearest the middle,
+    so the second line never ends up with a single orphan word."""
+    if width(sentence, LINE) <= max_w:
+        return [sentence]
+    cuts = [i + 1 for i, ch in enumerate(sentence) if ch == ","]
+    fitting = [i for i in cuts
+               if width(sentence[:i], LINE) <= max_w and width(sentence[i:].strip(), LINE) <= max_w]
+    if fitting:
+        i = min(fitting, key=lambda i: abs(width(sentence[:i], LINE) - width(sentence[i:], LINE)))
+        return [sentence[:i], sentence[i:].strip()]
+    return wrap(sentence, max_w, LINE, "sans", 2)
+
+
 def render(ctx, theme: str) -> str:
     c = ctx.palette(theme)
     lab = ctx.labels
@@ -53,7 +67,7 @@ def render(ctx, theme: str) -> str:
                    f'@ {esc(company.strip())}</tspan></text>'],
                   class_="in", style="animation-delay:.45s")
 
-    subtitle = wrap(lab["subtitle"], W - 80, LINE, "sans", 2)
+    subtitle = _lines(lab["subtitle"], W - 80)
     body += group([text(cx, 200 + k * 38, line, class_="r", font_size=LINE, fill=c["fg"],
                          text_anchor="middle") for k, line in enumerate(subtitle)],
                   class_="in", style="animation-delay:.6s")
