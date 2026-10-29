@@ -29,11 +29,8 @@ ticker = [
   "clinic admissions & billing",
 ]
 
-# Markdown, shown as real text under the header
-intro = [
-  "📺 I build the software behind Hotel Care's in-room TV, Wi-Fi and telephony, deployed across ~480 hotels, clinics and campsites.",
-  "📍 Provence, France",
-]
+# One short line of real Markdown text under the header
+intro = "🏨 Running in ~480 hotels, clinics and campsites · 📍 Provence, France"
 
 projects_title = "Projects"
 projects = [
@@ -93,10 +90,7 @@ ticker = [
   "l'admission en clinique",
 ]
 
-intro = [
-  "📺 Je conçois le logiciel derrière la TV, le Wi-Fi et la téléphonie en chambre de Hotel Care, déployé dans ~480 hôtels, cliniques et campings.",
-  "📍 Provence, France",
-]
+intro = "🏨 En service dans ~480 hôtels, cliniques et campings · 📍 Provence, France"
 
 projects_title = "Projets"
 projects = [
