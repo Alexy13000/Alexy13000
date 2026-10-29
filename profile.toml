@@ -30,7 +30,7 @@ ticker = [
 ]
 
 # One short line of real Markdown text under the header
-intro = "🏨 Running in ~480 hotels, clinics and campsites · 📍 Provence, France"
+intro = "🏨 Running in ~480 hotels, clinics and campsites · 🇫🇷 France"
 
 projects_title = "Projects"
 projects = [
@@ -90,7 +90,7 @@ ticker = [
   "l'admission en clinique",
 ]
 
-intro = "🏨 En service dans ~480 hôtels, cliniques et campings · 📍 Provence, France"
+intro = "🏨 En service dans ~480 hôtels, cliniques et campings · 🇫🇷 France"
 
 projects_title = "Projets"
 projects = [
