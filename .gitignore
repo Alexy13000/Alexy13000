@@ -1,0 +1,6 @@
+__pycache__/
+.cache/
+.preview/
+preview.html
+.DS_Store
+.venv/

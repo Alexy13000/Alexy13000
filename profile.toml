@@ -1,0 +1,142 @@
+# Profile content: every text shown on the GitHub profile lives here.
+# Edit, then run `python3 -m profilegen` (Python 3.11+), or wait for the daily
+# GitHub Actions run. Everything below is public: no client names, servers,
+# IPs, internal domains or contract details.
+
+lang = "en"                    # "en" or "fr": which [en] / [fr] block is used
+login = "Alexy13000"           # GitHub account whose contributions are shown
+timezone = "Europe/Paris"      # decides what "today" means for the streak
+streak_skip_weekends = true    # true: a weekend without commits never breaks a streak
+
+# Links in the footer. Empty = hidden. Nothing is ever made up.
+[contact]
+email = ""
+linkedin = ""
+website = ""
+
+# ═══════════════════════════════════════════════════════════════ English ══
+[en]
+name = "Alexy Lorenzatti"
+role = "Full-Stack Developer @ Hotel Dev"
+subtitle = "The only developer behind Hotel Care's in-room TV, Wi-Fi & telephony software"
+building = "Building"
+ticker = [
+  "Android TV kiosk platforms",
+  "welcome screens for hotels",
+  "fleet supervision dashboards",
+  "field tools in Go, over ADB",
+  "after-sales portals & ticketing",
+  "clinic admissions & billing",
+]
+
+# Markdown, shown as real text under the header
+intro = [
+  "📺 I build the software behind Hotel Care's in-room TV, Wi-Fi and telephony, deployed across ~480 hotels, clinics and campsites.",
+  "📍 Provence, France",
+]
+
+projects_title = "Projects"
+projects = [
+  { icon = "tv", title = "Android TV kiosk platform", text = "Device Owner, OTA updates, remote fleet management", tag = "Kotlin" },
+  { icon = "layout", title = "Welcome-screen editor for hotels", text = "Widgets, slideshows, live channels", tag = "Python" },
+  { icon = "pulse", title = "Fleet supervision", text = "Supervision and operations dashboards", tag = "Ops" },
+  { icon = "plug", title = "Field provisioning tool", text = "Sets up TVs on site, over ADB", tag = "Go" },
+  { icon = "ticket", title = "After-sales portal", text = "Support portal and in-house ticketing", tag = "Support" },
+  { icon = "clinic", title = "Clinic admissions & billing", text = "Linked to the in-room TV", tag = "Healthcare" },
+]
+
+stack_title = "Stack"
+stack = [
+  { icon = "kotlin", name = "Kotlin" },
+  { icon = "python", name = "Python" },
+  { icon = "flask", name = "Flask" },
+  { icon = "sqlite", name = "SQLite" },
+  { icon = "go", name = "Go" },
+  { icon = "javascript", name = "JavaScript" },
+  { icon = "windows", name = "Windows Server" },
+  { icon = "actions", name = "GitHub Actions" },
+]
+
+[en.stats]
+title = "Contributions"
+last_year = "{n} contributions in the last year"
+total = "Total Contributions"
+current = "Current Streak"
+longest = "Longest Streak"
+present = "Present"
+days_one = "day"
+days_many = "days"
+working_days = "Working days: weekends never break a streak"
+less = "Less"
+more = "More"
+months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+
+[en.readme]
+alt_header = "Alexy Lorenzatti, Full-Stack Developer @ Hotel Dev. The only developer behind Hotel Care's in-room TV, Wi-Fi & telephony software."
+alt_projects = "Projects: Android TV kiosk platform, welcome-screen editor for hotels, fleet supervision, field provisioning tool in Go, after-sales portal, clinic admissions and billing."
+alt_stack = "Stack"
+links = { email = "Email", linkedin = "LinkedIn", website = "Website" }
+
+# ═════════════════════════════════════════════════════════════ Français ══
+[fr]
+name = "Alexy Lorenzatti"
+role = "Full-Stack Developer @ Hotel Dev"
+subtitle = "Le seul développeur derrière le logiciel de TV, Wi-Fi et téléphonie en chambre de Hotel Care"
+building = "Je construis"
+ticker = [
+  "des kiosques Android TV",
+  "des écrans d'accueil d'hôtel",
+  "la supervision du parc",
+  "des outils terrain en Go",
+  "un portail SAV",
+  "l'admission en clinique",
+]
+
+intro = [
+  "📺 Je conçois le logiciel derrière la TV, le Wi-Fi et la téléphonie en chambre de Hotel Care, déployé dans ~480 hôtels, cliniques et campings.",
+  "📍 Provence, France",
+]
+
+projects_title = "Projets"
+projects = [
+  { icon = "tv", title = "Plateforme kiosque Android TV", text = "Device Owner, OTA, pilotage du parc à distance", tag = "Kotlin" },
+  { icon = "layout", title = "Éditeur d'écrans d'accueil", text = "Widgets, diaporamas, chaînes en direct", tag = "Python" },
+  { icon = "pulse", title = "Supervision du parc", text = "Supervision et tableaux d'exploitation", tag = "Exploitation" },
+  { icon = "plug", title = "Outil de provisioning terrain", text = "Configure les TV sur site, par ADB", tag = "Go" },
+  { icon = "ticket", title = "Portail SAV", text = "Portail de support et ticketing maison", tag = "Support" },
+  { icon = "clinic", title = "Admission et facturation en clinique", text = "Reliées à la TV en chambre", tag = "Santé" },
+]
+
+stack_title = "Stack"
+stack = [
+  { icon = "kotlin", name = "Kotlin" },
+  { icon = "python", name = "Python" },
+  { icon = "flask", name = "Flask" },
+  { icon = "sqlite", name = "SQLite" },
+  { icon = "go", name = "Go" },
+  { icon = "javascript", name = "JavaScript" },
+  { icon = "windows", name = "Windows Server" },
+  { icon = "actions", name = "GitHub Actions" },
+]
+
+[fr.stats]
+title = "Contributions"
+last_year = "{n} contributions sur les 12 derniers mois"
+total = "Contributions"
+current = "Série en cours"
+longest = "Plus longue série"
+present = "Aujourd'hui"
+days_one = "jour"
+days_many = "jours"
+working_days = "Jours ouvrés : le week-end ne casse jamais une série"
+less = "Moins"
+more = "Plus"
+months = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
+weekdays = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"]
+
+[fr.readme]
+alt_header = "Alexy Lorenzatti, Full-Stack Developer @ Hotel Dev. Le seul développeur derrière le logiciel de TV, Wi-Fi et téléphonie en chambre de Hotel Care."
+alt_projects = "Projets : plateforme kiosque Android TV, éditeur d'écrans d'accueil, supervision du parc, outil de provisioning terrain en Go, portail SAV, admission et facturation en clinique."
+alt_stack = "Stack"
+links = { email = "E-mail", linkedin = "LinkedIn", website = "Site" }
