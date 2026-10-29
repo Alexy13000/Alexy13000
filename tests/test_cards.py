@@ -1,7 +1,10 @@
+import hashlib
+import tempfile
 import unittest
 from datetime import date
+from pathlib import Path
 
-from profilegen.readme import links
+from profilegen.readme import links, versioned
 from profilegen.stats_card import COLS, grid_start, levels
 
 LABELS = {"readme": {"links": {"email": "Email", "linkedin": "LinkedIn", "website": "Website"}}}
@@ -31,6 +34,18 @@ class LinksTest(unittest.TestCase):
         out = links({"contact": {"email": "a@b.c", "website": 'https://x.y/"z'}}, LABELS)
         self.assertEqual(out[0], '<a href="mailto:a@b.c">Email</a>')
         self.assertIn("&quot;", out[1])
+
+
+class CacheBustingTest(unittest.TestCase):
+    def test_url_carries_a_hash_of_the_content(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            card = Path(tmp) / "a.svg"
+            card.write_bytes(b"<svg>one</svg>")
+            first = versioned("a.svg", Path(tmp))
+            self.assertEqual(first, "assets/a.svg?v=" + hashlib.sha256(b"<svg>one</svg>").hexdigest()[:10])
+            self.assertEqual(versioned("a.svg", Path(tmp)), first)  # stable
+            card.write_bytes(b"<svg>two</svg>")
+            self.assertNotEqual(versioned("a.svg", Path(tmp)), first)  # changes with content
 
 
 if __name__ == "__main__":
