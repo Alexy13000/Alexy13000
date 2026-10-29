@@ -6,7 +6,7 @@
   <img alt="Alexy Lorenzatti, Full-Stack Developer @ Hotel Dev. From the TV in the room to the servers behind it, I build it all." src="assets/header-light.svg?v=3dec32b0e2" width="100%">
 </picture>
 
-<p align="center">🏨 Running in ~480 hotels, clinics and campsites · 📍 Provence, France</p>
+<p align="center">🏨 Running in ~480 hotels, clinics and campsites · 🇫🇷 France</p>
 
 <h3 align="center">Projects</h3>
 
@@ -28,7 +28,7 @@
 <h3 align="center">Contributions</h3>
 
 <p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=db6df097c9">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=e769c881a2">
-  <img alt="Total Contributions: 2,694 · Current Streak: 53 · Longest Streak: 53 · Working days: weekends never break a streak" src="assets/stats-light.svg?v=e769c881a2" width="480">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=5924c829ae">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=dc62c72b0f">
+  <img alt="Total Contributions: 2,712 · Current Streak: 53 · Longest Streak: 53 · Working days: weekends never break a streak" src="assets/stats-light.svg?v=dc62c72b0f" width="480">
 </picture></p>
