@@ -31,5 +31,5 @@
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-  <img alt="Total Contributions: 5 · Current Streak: 0 · Longest Streak: 2 · Working days: weekends never break a streak" src="assets/stats-light.svg" width="480">
+  <img alt="Total Contributions: 2,694 · Current Streak: 53 · Longest Streak: 53 · Working days: weekends never break a streak" src="assets/stats-light.svg" width="480">
 </picture></p>
