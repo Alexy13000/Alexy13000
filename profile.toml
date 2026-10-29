@@ -18,7 +18,7 @@ website = ""
 [en]
 name = "Alexy Lorenzatti"
 role = "Full-Stack Developer @ Hotel Dev"
-subtitle = "The only developer behind Hotel Care's in-room TV, Wi-Fi & telephony software"
+subtitle = "From the TV in the room to the servers behind it, I build it all."
 building = "Building"
 ticker = [
   "Android TV kiosk platforms",
@@ -73,7 +73,7 @@ months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", 
 weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 [en.readme]
-alt_header = "Alexy Lorenzatti, Full-Stack Developer @ Hotel Dev. The only developer behind Hotel Care's in-room TV, Wi-Fi & telephony software."
+alt_header = "Alexy Lorenzatti, Full-Stack Developer @ Hotel Dev. From the TV in the room to the servers behind it, I build it all."
 alt_projects = "Projects: Android TV kiosk platform, welcome-screen editor for hotels, fleet supervision, field provisioning tool in Go, after-sales portal, clinic admissions and billing."
 alt_stack = "Stack"
 links = { email = "Email", linkedin = "LinkedIn", website = "Website" }
@@ -82,7 +82,7 @@ links = { email = "Email", linkedin = "LinkedIn", website = "Website" }
 [fr]
 name = "Alexy Lorenzatti"
 role = "Full-Stack Developer @ Hotel Dev"
-subtitle = "Le seul développeur derrière le logiciel de TV, Wi-Fi et téléphonie en chambre de Hotel Care"
+subtitle = "De la TV dans la chambre jusqu'aux serveurs derrière, je construis tout."
 building = "Je construis"
 ticker = [
   "des kiosques Android TV",
@@ -136,7 +136,7 @@ months = ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "s
 weekdays = ["lun", "mar", "mer", "jeu", "ven", "sam", "dim"]
 
 [fr.readme]
-alt_header = "Alexy Lorenzatti, Full-Stack Developer @ Hotel Dev. Le seul développeur derrière le logiciel de TV, Wi-Fi et téléphonie en chambre de Hotel Care."
+alt_header = "Alexy Lorenzatti, Full-Stack Developer @ Hotel Dev. De la TV dans la chambre jusqu'aux serveurs derrière, je construis tout."
 alt_projects = "Projets : plateforme kiosque Android TV, éditeur d'écrans d'accueil, supervision du parc, outil de provisioning terrain en Go, portail SAV, admission et facturation en clinique."
 alt_stack = "Stack"
 links = { email = "E-mail", linkedin = "LinkedIn", website = "Site" }

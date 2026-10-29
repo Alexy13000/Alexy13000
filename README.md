@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Alexy Lorenzatti, Full-Stack Developer @ Hotel Dev. The only developer behind Hotel Care's in-room TV, Wi-Fi &amp; telephony software." src="assets/header-light.svg" width="100%">
+  <img alt="Alexy Lorenzatti, Full-Stack Developer @ Hotel Dev. From the TV in the room to the servers behind it, I build it all." src="assets/header-light.svg" width="100%">
 </picture>
 
 <p align="center">📺 I build the software behind Hotel Care's in-room TV, Wi-Fi and telephony, deployed across ~480 hotels, clinics and campsites.<br>
@@ -31,5 +31,5 @@
 <p align="center"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-  <img alt="Total Contributions: 2,694 · Current Streak: 53 · Longest Streak: 53 · Working days: weekends never break a streak" src="assets/stats-light.svg" width="480">
+  <img alt="Total Contributions: 5 · Current Streak: 0 · Longest Streak: 2 · Working days: weekends never break a streak" src="assets/stats-light.svg" width="480">
 </picture></p>
