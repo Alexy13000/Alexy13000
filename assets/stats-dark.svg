@@ -486,6 +486,7 @@
 </g>
 <g class="col" style="animation-delay:1.086s">
 <rect x="455.55" y="46" width="6.85" height="6.85" rx="1.5" fill="#006d32"/>
+<rect x="455.55" y="54.45" width="6.85" height="6.85" rx="1.5" fill="#161b22"/>
 </g>
 <text x="16" y="131.17" class="r" font-size="18" fill="#8b949e">2,819 contributions in the last year</text>
 <text x="464" y="131.17" class="r" font-size="18" fill="#8b949e" text-anchor="end">More</text>
