@@ -28,7 +28,7 @@
 <h3 align="center">Contributions</h3>
 
 <p align="center"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=d8dc4cc496">
-  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=e4c747c737">
-  <img alt="Total Contributions: 4,989 · Current Streak: 78 · Longest Streak: 78 · Working days: weekends never break a streak" src="assets/stats-light.svg?v=e4c747c737" width="480">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg?v=8d0056ec93">
+  <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg?v=04278787c3">
+  <img alt="Total Contributions: 5,125 · Current Streak: 80 · Longest Streak: 80 · Working days: weekends never break a streak" src="assets/stats-light.svg?v=04278787c3" width="480">
 </picture></p>
